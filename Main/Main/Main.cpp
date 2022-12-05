@@ -365,8 +365,9 @@ public:
         if (countmove == 1)
         {
             cout << "\n\n TIE \n\n";
+        }else{
+            checker();
         }
-        checker();
     }
 
     game(string aisecond, string first, string asfsd) {
@@ -386,8 +387,9 @@ public:
         if (countmove == 1)
         {
             cout << "\n\n TIE \n\n";
+        }else{
+            checker();
         }
-        checker();
     }
 
     game(string aisecond, string first)
@@ -410,7 +412,9 @@ public:
         {
             cout << "\n\n TIE \n\n";
         }
-        checker();
+        else {
+            checker();
+        }
     };
 
     game(string aifir)
@@ -433,9 +437,9 @@ public:
         if (countmove == 1)
         {
             cout << "\n\n TIE \n\n";
+        }else{
+            checker();
         }
-        checker();
-    
     };
 
     game()
